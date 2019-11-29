@@ -19,3 +19,4 @@ store.dispatch({type:"ADD_TODO",text:"Onion"});
 store.dispatch({type:"ADD_TODO",text:"Pen"});
 store.dispatch({type:"ADD_TODO",text:"Milk"});
 store.dispatch({type:"TOGGLE_TODO",text:"Onion"});
+store.dispatch({type:"SET_FILTER",visibility:"SHOW_COMPLETED"});
