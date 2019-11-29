@@ -6,6 +6,6 @@ export default function filterReducer(
     case 'SET_FILTER':
       return action.visibility;
     default:
-      visibility;
+     return visibility;
   }
 }
