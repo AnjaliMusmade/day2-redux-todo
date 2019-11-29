@@ -1,9 +1,9 @@
 export default function filterReducer(
   visibility: string = "SHOW_ALL",
-  action: any
-) {
+  action: any) {
+
   switch (action.type) {
-    case "SET_FILTER":
+    case 'SET_FILTER':
       return action.visibility;
     default:
       visibility;
