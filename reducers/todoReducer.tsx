@@ -16,7 +16,7 @@ export default function todoReducer(state: [] = [], action) {
     // return newState;
     case "TOGGLE_TODO":
       return state.map((item, index) => {
-        if (item.text == action.text) {
+        if (item.text === action.text) {
           return {
             ...item,
             completed: !action.completed
